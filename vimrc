@@ -27,3 +27,5 @@ set showmatch       " highlight matching ({[ ]})
 set incsearch       " search text as characters are typed
 set hlsearch        " highlight search matches
 nnoremap <leader><space> :nohlsearch<CR>    " set of keys to turn off match highlighting \ + space
+
+colorscheme molokai
