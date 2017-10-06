@@ -12,7 +12,8 @@ Includes a .vimrc config file, pathogen and the following plugins:
   flags for NERDTree
 * [Colorschemes](https://github.com/flazz/vim-colorschemes) - colorscheme
   manager
-
+* [ctrlp](https://github.com/ctrlpvim/ctrlp.vim) - Full path fuzzy file, buffer,
+  mru, tag, ... finder for vim
 
 ### Installation
 
