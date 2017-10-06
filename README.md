@@ -1,7 +1,7 @@
 # dotvim
 
-A repository meant to store my vim configuration, inspired by vimcast's
-[post](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/).
+A repository meant to store my vim configuration, inspired by this vimcast's
+[episode](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/).
 
 Includes a .vimrc config file, pathogen and the following plugins:
 
@@ -12,3 +12,24 @@ Includes a .vimrc config file, pathogen and the following plugins:
   flags for NERDTree
 * [Colorschemes](https://github.com/flazz/vim-colorschemes) - colorscheme
   manager
+
+
+### Installation
+
+Clone the repo into your ```.vim``` directory and add symlinks for `.vimrc` (and
+`.gvimrc`, if you use it). The commands are:
+
+```shell
+$ git clone https://github.com/nesteves/dotvim.git ~/.vim
+$ ln -s ~/.vim/vimrc ~/.vimrc
+```
+
+### Adding more plugins
+
+This is done with git submodules:
+
+```shell
+$ cd ~/.vim
+$ git submodule add https://github.com/<plugin>.git bundle/<plugin>
+$ git commit -m "Add plugin <plugin>"
+```
