@@ -27,6 +27,22 @@ $ git submodule init
 $ git submodule update
 ```
 
+### Upgrade plugins
+
+You can upgrade a specific plugin:
+
+```shell
+$ cd ~/.vim/bundle/<plugin>
+$ git pull origin master
+```
+
+Or upgrade all existing plugins:
+
+```shell
+$ cd ~/.vim
+$ git submodule foreach git pull origin master
+```
+
 ### Adding more plugins
 
 This is done with git submodules:
