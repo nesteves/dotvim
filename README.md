@@ -22,6 +22,9 @@ Clone the repo into your ```.vim``` directory and add symlinks for `.vimrc` (and
 ```shell
 $ git clone https://github.com/nesteves/dotvim.git ~/.vim
 $ ln -s ~/.vim/vimrc ~/.vimrc
+$ cd ~/.vim
+$ git submodule init
+$ git submodule update
 ```
 
 ### Adding more plugins
