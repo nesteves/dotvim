@@ -12,8 +12,10 @@ set number          " show line numbers
 set showcmd         " show command in the bottom bar
 set cursorline      " highlight the current line
 
+filetype plugin indent on
 set tabstop=2       " number of visual spaces a TAB counts for
 set softtabstop=2   " spaces to indent when editing with TAB
+set shiftwidth=2    " set number of spaces to indent with the shift command
 set expandtab       " turn TAB into spaces
 set textwidth=80
 set autoindent
