@@ -14,6 +14,9 @@ Includes a .vimrc config file, pathogen and the following plugins:
   manager
 * [ctrlp](https://github.com/ctrlpvim/ctrlp.vim) - Full path fuzzy file, buffer,
   mru, tag, ... finder for vim
+* [salt-vim](https://github.com/saltstack/salt-vim) - syntax highlighting and
+  some quality of life improvements for editing YAML with Jinja in .sls
+  fimprovements for editing
 
 ### Installation
 
