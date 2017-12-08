@@ -17,6 +17,8 @@ Includes a .vimrc config file, pathogen and the following plugins:
 * [salt-vim](https://github.com/saltstack/salt-vim) - syntax highlighting and
   some quality of life improvements for editing YAML with Jinja in .sls
   fimprovements for editing
+* [rust](https://github.com/rust-lang/rust.vim) - file detection, syntax
+  highlighting, formatting and Syntastic integration
 
 ### Installation
 
