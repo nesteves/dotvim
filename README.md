@@ -20,7 +20,7 @@ Includes a .vimrc config file, pathogen and the following plugins:
 * [Syntastic](https://github.com/vim-syntastic/syntastic) - syntax checking
   with error display
 * [rust](https://github.com/rust-lang/rust.vim) - file detection, syntax
-  highlighting, formatting and Syntastic integration
+  highlighting, formatting and Syntastic integration for rust source files
 
 ### Installation
 
