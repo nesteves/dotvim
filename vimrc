@@ -31,3 +31,13 @@ set hlsearch        " highlight search matches
 nnoremap <leader><space> :nohlsearch<CR>    " set of keys to turn off match highlighting \ + space
 
 colorscheme molokai
+
+" Syntastic configuration for beginners
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
