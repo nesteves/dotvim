@@ -37,8 +37,14 @@ let g:NERDTreeDirArrows  = 1
 let g:NERDTreeAutoCenter = 0
 let g:NERDTreeWinSize = 36
 let NERDTreeMinimalUI = 1
-nnoremap <Leader>t :NERDTreeToggle<CR>
-nnoremap <Leader>r :NERDTreeFind<CR>
+map <Leader>t :NERDTreeToggle<CR>
+map <Leader>r :NERDTreeFind<CR>
+
+" MBE config
+map <Leader>e :MBEOpen<CR>
+map <Leader>c :MBEClose<CR>
+map <Leader>bn :MBEbn<CR>
+map <Leader>bp :MBEbp<CR>
 
 " Syntastic configuration for beginners
 set statusline+=%f
