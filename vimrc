@@ -32,7 +32,17 @@ nnoremap <leader><space> :nohlsearch<CR>    " set of keys to turn off match high
 
 colorscheme molokai
 
+" NERDTree config
+let g:NERDTreeDirArrows  = 1
+let g:NERDTreeAutoCenter = 0
+let g:NERDTreeWinSize = 36
+let NERDTreeMinimalUI = 1
+nnoremap <Leader>t :NERDTreeToggle<CR>
+nnoremap <Leader>r :NERDTreeFind<CR>
+
 " Syntastic configuration for beginners
+set statusline+=%f
+set statusline+=%=%l,\ %c\%12L
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*

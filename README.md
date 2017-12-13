@@ -19,6 +19,8 @@ Includes a .vimrc config file, pathogen and the following plugins:
   with error display
 * [rust](https://github.com/rust-lang/rust.vim) - file detection, syntax
   highlighting, formatting and Syntastic integration for rust source files
+* [minibufexpl](https://github.com/fholgado/minibufexpl.vim.git) - lightweight
+  buffer explorer
 
 ### Installation
 
