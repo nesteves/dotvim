@@ -45,6 +45,8 @@ map <Leader>e :MBEOpen<CR>
 map <Leader>c :MBEClose<CR>
 map <Leader>bn :MBEbn<CR>
 map <Leader>bp :MBEbp<CR>
+map <Leader>bd :MBEbd<CR>
+map :b<CR> :MBEbd<CR>
 
 " Syntastic configuration for beginners
 set statusline+=%f
