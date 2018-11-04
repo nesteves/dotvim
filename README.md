@@ -21,6 +21,8 @@ Includes a .vimrc config file, pathogen and the following plugins:
   highlighting, formatting and Syntastic integration for rust source files
 * [minibufexpl](https://github.com/fholgado/minibufexpl.vim.git) - lightweight
   buffer explorer
+* [typescript-vim](https://github.com/leafgarland/typescript-vim) - syntax
+  highlighting, indentation and compiler integration for TypeScript
 
 ### Installation
 
