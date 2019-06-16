@@ -5,24 +5,26 @@ A repository meant to store my vim configuration, inspired by this vimcast's
 
 Includes a .vimrc config file, pathogen and the following plugins:
 
-* [NERDTree](https://github.com/scrooloose/nerdtree) - file system explorer
-* [NERDTree git](https://github.com/Xuyuanp/nerdtree-git-plugin) - git status
-  flags for NERDTree
 * [Colorschemes](https://github.com/flazz/vim-colorschemes) - colorscheme
   manager
 * [ctrlp](https://github.com/ctrlpvim/ctrlp.vim) - Full path fuzzy file, buffer,
   mru, tag, ... finder for vim
+* [minibufexpl](https://github.com/fholgado/minibufexpl.vim.git) - lightweight
+  buffer explorer
+* [NERDTree](https://github.com/scrooloose/nerdtree) - file system explorer
+* [NERDTree git](https://github.com/Xuyuanp/nerdtree-git-plugin) - git status
+  flags for NERDTree
 * [salt-vim](https://github.com/saltstack/salt-vim) - syntax highlighting and
   some quality of life improvements for editing YAML with Jinja in .sls
   fimprovements for editing
-* [Syntastic](https://github.com/vim-syntastic/syntastic) - syntax checking
-  with error display
 * [rust](https://github.com/rust-lang/rust.vim) - file detection, syntax
   highlighting, formatting and Syntastic integration for rust source files
-* [minibufexpl](https://github.com/fholgado/minibufexpl.vim.git) - lightweight
-  buffer explorer
+* [Syntastic](https://github.com/vim-syntastic/syntastic) - syntax checking
+  with error display
 * [typescript-vim](https://github.com/leafgarland/typescript-vim) - syntax
   highlighting, indentation and compiler integration for TypeScript
+* [vim-commentary](https://github.com/tpope/vim-commentary.git) - block
+  commenting toggle
 
 ### Installation
 

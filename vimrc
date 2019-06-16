@@ -8,6 +8,7 @@ set t_Co=256        " enable 256 color support for the colorschemes
 
 syntax enable
 
+set fileformat=unix " use newlines (\n)
 set number          " show line numbers
 set showcmd         " show command in the bottom bar
 set cursorline      " highlight the current line
@@ -52,3 +53,12 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+
+set term=screen-256color
+set t_ut=
+
+" Show the cursor correctly when using git-bash
+let &t_ti.="\e[1 q"
+let &t_SI.="\e[5 q"
+let &t_EI.="\e[1 q"
+let &t_te.="\e[0 q"
